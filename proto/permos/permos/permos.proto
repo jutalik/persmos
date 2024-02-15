@@ -1,0 +1,10 @@
+syntax = "proto3";
+package permos.permos;
+
+option go_package = "permos/x/permos/types";
+
+message Permos {
+  uint64 id = 1;
+  string mypermos = 2; 
+  string creator = 3;
+}
